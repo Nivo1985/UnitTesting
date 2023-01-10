@@ -6,7 +6,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLib", "src\Calcul
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CA6BA72D-3BEF-4E7F-8BA4-64972C8CD150}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLibTests", "tests\CalculatorLibTests\CalculatorLibTests.csproj", "{57CBA9B1-4B34-49E4-8AB9-3542BB16ADD1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLib.Tests.Unit", "tests\CalculatorLib.Tests.Unit\CalculatorLib.Tests.Unit.csproj", "{57CBA9B1-4B34-49E4-8AB9-3542BB16ADD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
