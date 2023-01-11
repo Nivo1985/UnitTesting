@@ -26,6 +26,19 @@ public class CalculatorTests: IAsyncLifetime
         // Assert
         Assert.Equal(5, result);
     }
+    
+    [Theory]
+    [InlineData(4,2,2)]
+    [InlineData(10,2,8)]
+    [InlineData(-1,2,-3)]
+    public void Subtract_Should_Subtract_Integers(int a, int b, int c)
+    {
+        // Act
+        var result = _sutCalculator.Subtract(a, b);
+        
+        // Assert
+        Assert.Equal(c, result);
+    }
 
     [Fact]
     public void TestGuidUniquenessOne()
